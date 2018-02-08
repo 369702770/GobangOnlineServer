@@ -1,4 +1,6 @@
-package cn.liuxinyumo.GameEngine;
+package cn.liuxinyumo.GameEngine.util;
+
+import cn.liuxinyumo.GameEngine.service.PlayerConsole;
 
 import java.io.InputStream;
 import java.io.OutputStream;

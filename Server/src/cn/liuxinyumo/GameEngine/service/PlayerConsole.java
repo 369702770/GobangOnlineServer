@@ -1,6 +1,7 @@
-package cn.liuxinyumo.GameEngine;
+package cn.liuxinyumo.GameEngine.service;
 
-import java.io.InputStream;
+import cn.liuxinyumo.GameEngine.vo.Player;
+
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,7 @@ import java.util.List;
  * 
  * */
 
-class PlayerConsole {
+public class PlayerConsole {
 	private List<Player> players ;
 	private RoomConsole roomConsole;
 	public PlayerConsole(RoomConsole roomcon){

@@ -1,4 +1,7 @@
-package cn.liuxinyumo.GameEngine;
+package cn.liuxinyumo.GameEngine.service;
+
+import cn.liuxinyumo.GameEngine.vo.Player;
+import cn.liuxinyumo.GameEngine.vo.Room;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,7 +11,7 @@ import java.util.Map;
 /*
  * Room管理器
  * */
-class RoomConsole {
+public class RoomConsole {
 	private Map<String,PlayerRoomInfo> WaitKeys = null;
 	
 	private List<Room> Rooms = null;
@@ -18,7 +21,7 @@ class RoomConsole {
 		Rooms = new ArrayList<>();
 	}
 
-	public boolean EnterRoom(Player p,String ID){//有用户请求进入一个房间
+	public boolean EnterRoom(Player p, String ID){//有用户请求进入一个房间
 		
 		return false;
 	}

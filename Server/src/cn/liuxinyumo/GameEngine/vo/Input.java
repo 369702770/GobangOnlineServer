@@ -1,4 +1,4 @@
-package cn.liuxinyumo.GameEngine;
+package cn.liuxinyumo.GameEngine.vo;
 
 import java.io.InputStream;
 

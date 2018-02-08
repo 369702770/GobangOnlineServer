@@ -1,4 +1,4 @@
-package cn.liuxinyumo.GameEngine;
+package cn.liuxinyumo.GameEngine.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
  * GameCore 仅负责游戏逻辑
  * */
 
-class GameCore {
+public class GameCore {
 	private int[][] Data;
 	private int CurrentPlayer;
 	private int Winner;

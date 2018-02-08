@@ -1,12 +1,14 @@
-package cn.liuxinyumo.GameEngine;
+package cn.liuxinyumo.GameEngine.vo;
 
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
+import cn.liuxinyumo.GameEngine.service.PlayerConsole;
+import cn.liuxinyumo.GameEngine.service.RoomConsole;
 import org.json.JSONObject;
 
-class Player {
+public class Player {
 	private Socket socket;
 	
 	private Thread thread;	//接收线程

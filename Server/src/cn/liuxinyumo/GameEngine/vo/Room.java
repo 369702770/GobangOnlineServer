@@ -1,9 +1,9 @@
-package cn.liuxinyumo.GameEngine;
+package cn.liuxinyumo.GameEngine.vo;
 
-import java.util.ArrayList;
-import java.util.List;
+import cn.liuxinyumo.GameEngine.service.GameCore;
+import cn.liuxinyumo.GameEngine.service.RoomConsole;
 
-class Room {
+public class Room {
 	/*
 	 *  房间类
 	 *  

@@ -2,7 +2,7 @@ package Main;
 
 import java.util.Scanner;
 
-import cn.liuxinyumo.GameEngine.Server;
+import cn.liuxinyumo.GameEngine.util.Server;
 
 public class Main {
 
